@@ -70,10 +70,3 @@
 
 ---
 
-# ⭐ Notes
-- Everything above is **professional and attractive**
-- Icons + badges + dark style **increase credibility**
-- Stats + streak **signal consistency**
-- Visitor counter adds profile personality
-
----
