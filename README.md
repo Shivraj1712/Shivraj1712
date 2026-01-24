@@ -60,10 +60,10 @@
 ## 🤝 Connect with Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/shivrajsinh-maharaul-677379321/">
+  <a target ="_blank" href="https://www.linkedin.com/in/shivrajsinh-maharaul-677379321/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://shivrajportfolio.vercel.app/">
+  <a target ="_blank" href="https://shivrajportfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?logo=About.me&logoColor=white" />
   </a>
 </p>
