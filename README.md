@@ -25,10 +25,10 @@ I am not fond of sinking weeks into custom frontend styling; instead, I prioriti
 
 ## 📝 Featured Production Projects
 
-### 📈 **StockPulse – Media-Enabled Asset Tracking Engine**
+### 📈 **Trace – Media-Enabled Asset Tracking Engine**
 * **Overview:** A performance-optimized asset and data tracking platform engineered with modular, interface-driven Go paradigms.
 * **Key Architecture:** Shipped secure identity management using **Goth OAuth provider authentication**, passing server-side state control to a cryptographic random session token lifecycle. Designed a fully decoupled session validation layer by binding a rigid `TokenInterface` across global handlers to support mockable unit testing. Implemented thread-safe, package-level structural validation to minimize runtime reflection overhead, integrated **Upstash Redis** for high-speed in-memory session persistence (72h expiry), and natively integrated **Google Cloud Storage (GCS)** buckets for secure media streams.
-* **Tech Stack:** `Go (Golang)`, `Fiber v2`, `GORM`, `Neon PostgreSQL`, `Upstash Redis`, `Goth (Google OAuth)`, `Google Cloud Storage`, `go-playground/validator`, `Docker`
+* **Tech Stack:** `Go (Golang)`, `Fiber v2`, `GORM`, `Neon PostgreSQL`, `Upstash Redis`, `Goth (Google OAuth)`, `Cloudinary`, `go-playground/validator`, `Docker`,`Swagger`,`Rate Limiting`
 
 ---
 
