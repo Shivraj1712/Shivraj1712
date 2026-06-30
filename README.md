@@ -26,8 +26,8 @@ I prioritize designing clean, type-safe API gateways and data layers. To deliver
 ## 📝 Featured Production Projects
 
 ### 🏗️ **Lattice – Secure Modular Backend Ecosystem**
-* **Overview:** My current project, an interface-driven backend architecture designed for scalability and high-security user/project management.
-* **Key Architecture:** Engineered a decoupled system using **Gin/Fiber**, featuring a robust middleware-based auth pipeline for both JWT and OAuth. Implemented strict dependency injection across repository and service layers to ensure 100% testability. Integrated **Neon PostgreSQL** with **GORM** for efficient ORM data handling and a **Redis-based** session layer for high-throughput state management.
+* **Overview:** My current working project, an interface-driven backend architecture designed for scalability and high-security user/project management.
+* **Key Architecture:** Engineered a decoupled system using **Gin/Fiber**, featuring a robust middleware-based auth pipeline for both Session tokens and OAuth. Implemented strict dependency injection across repository and service layers to ensure 100% testability. Integrated **Neon PostgreSQL** with **GORM** for efficient ORM data handling and a **Redis-based** session layer for high-throughput state management.
 * **Tech Stack:** `Go (Golang)`, `Gin`, `GORM`, `Neon PostgreSQL`, `Redis`, `JWT`, `OAuth`, `Cloudinary`, `Docker`
 
 ### 🪙 **SpendGrid – Decoupled Expense Ecosystem**
