@@ -1,6 +1,6 @@
 # 👋 Hi, I’m **Shivrajsinh Maharaul**
 
-### 💻 Backend Software Engineer | Go (Golang) • Gin • Go Fiber | Redis | PostgreSQL | C++ (DSA)  
+### 💻 Backend Software Engineer | Go (Golang) • Go Fiber | Redis | PostgreSQL | C++ (DSA)  
 > **Focused on building decoupled, production-ready backend architectures, optimizing thread-safe data pipelines, and sharpening algorithmic efficiency.**
 
 ---
@@ -17,7 +17,7 @@ I prioritize designing clean, type-safe API gateways and data layers. To deliver
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Languages** | ![Go](https://img.shields.io/badge/Go_/_Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
-| **Frameworks & Runtimes** | ![Gin](https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge) ![Fiber](https://img.shields.io/badge/Fiber__v2-00838F?style=for-the-badge) ![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white) |
+| **Frameworks & Runtimes** | ![Fiber](https://img.shields.io/badge/Fiber__v2-00838F?style=for-the-badge) ![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white) |
 | **Databases & Caching** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![GORM](https://img.shields.io/badge/GORM-00BCD4?style=for-the-badge&logo=go&logoColor=white) |
 | **Auth & Cloud Systems** | ![OAuth2](https://img.shields.io/badge/OAuth2_/_Goth-000000?style=for-the-badge&logo=google&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
 
@@ -25,10 +25,29 @@ I prioritize designing clean, type-safe API gateways and data layers. To deliver
 
 ## 📝 Featured Production Projects
 
-### 🏗️ **Lattice – Secure Modular Backend Ecosystem**
-* **Overview:** My current working project, an interface-driven backend architecture designed for scalability and high-security user/project management.
-* **Key Architecture:** Engineered a decoupled system using **Gin/Fiber**, featuring a robust middleware-based auth pipeline for both Session tokens and OAuth. Implemented strict dependency injection across repository and service layers to ensure 100% testability. Integrated **Neon PostgreSQL** with **GORM** for efficient ORM data handling and a **Redis-based** session layer for high-throughput state management.
-* **Tech Stack:** `Go (Golang)`, `Gin`, `GORM`, `Neon PostgreSQL`, `Redis`, `JWT`, `OAuth`, `Cloudinary`, `Docker`
+### 🏗️ **Lattice – Full-Stack Project Showcase Platform**
+* **Overview:** A monorepo platform where developers can sign up, publish their projects, and browse work shared by others. Features secure dual-authentication (local bcrypt + Google OAuth) and public portfolio viewing.
+* **🤝 Collaboration:** Co-engineered with my friend [Nikunj](https://github.com/Nikunj-1812/), who led the frontend UI/UX development, while I architected the core backend systems, APIs, and managed the live full-stack deployment.
+
+**Tech Stack**
+
+| Layer | Technology |
+| :--- | :--- |
+| **Backend** | Go, Fiber v2, GORM, PostgreSQL (Neon), Redis (Upstash) |
+| **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS, Axios |
+| **Auth** | Local (bcrypt) + Google OAuth via Goth |
+| **Media** | Cloudinary |
+| **API Docs** | Swagger (swaggo) |
+
+**Live Deployment**
+
+| Service | URL |
+| :--- | :--- |
+| **Frontend** | [latticegoproject.vercel.app](https://latticegoproject.vercel.app) |
+| **Backend API** | [lattice-xd9g.onrender.com](https://lattice-xd9g.onrender.com) |
+| **Swagger Docs** | [API Documentation](https://lattice-xd9g.onrender.com/swagger/) |
+
+<br>
 
 ### 🪙 **SpendGrid – Decoupled Expense Ecosystem**
 * **Overview:** A financial tracking ecosystem built on a compiled, modular backend architecture to support intense cross-origin data mutations.
